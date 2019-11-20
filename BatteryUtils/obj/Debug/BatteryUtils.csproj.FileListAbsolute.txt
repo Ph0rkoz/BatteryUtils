@@ -1,0 +1,8 @@
+D:\Valentin\Documente\Visual Studio 2015\Projects\Charge100\BatteryUtils\bin\Debug\BatteryUtils.exe
+D:\Valentin\Documente\Visual Studio 2015\Projects\Charge100\BatteryUtils\bin\Debug\BatteryUtils.pdb
+D:\Valentin\Documente\Visual Studio 2015\Projects\Charge100\BatteryUtils\obj\Debug\BatteryUtils.csprojResolveAssemblyReference.cache
+D:\Valentin\Documente\Visual Studio 2015\Projects\Charge100\BatteryUtils\obj\Debug\BatteryUtils.FormMain.resources
+D:\Valentin\Documente\Visual Studio 2015\Projects\Charge100\BatteryUtils\obj\Debug\BatteryUtils.Properties.Resources.resources
+D:\Valentin\Documente\Visual Studio 2015\Projects\Charge100\BatteryUtils\obj\Debug\BatteryUtils.csproj.GenerateResource.Cache
+D:\Valentin\Documente\Visual Studio 2015\Projects\Charge100\BatteryUtils\obj\Debug\BatteryUtils.exe
+D:\Valentin\Documente\Visual Studio 2015\Projects\Charge100\BatteryUtils\obj\Debug\BatteryUtils.pdb

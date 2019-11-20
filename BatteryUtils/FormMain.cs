@@ -210,6 +210,20 @@ namespace BatteryUtils
                 Marshal.FreeHGlobal(batteryThreshPointer);
                 Marshal.FreeHGlobal(batteryThreshOutPointer);
             }
+
+            // contributed code - added command line arguments support
+            string[] cmds = Environment.GetCommandLineArgs();
+            if (cmds.Length == 3)
+            {
+                decimal start = Convert.ToInt32(cmds[2]) - 1;
+                decimal stop = Convert.ToInt32(cmds[1]);
+                stop = stop == 100 ? 0x00 : stop;
+                //先执行停止指令
+                SetBatteryThresh(handle, stop, DEFAULT_BATTERY_ID, SET_BATTERY_THRESH_STOP);
+                //再执行开始指令
+                SetBatteryThresh(handle, start, DEFAULT_BATTERY_ID, SET_BATTERY_THRESH_START);
+                Environment.Exit(0);
+            }
         }
     }
 }
