@@ -1,4 +1,4 @@
-# BatteryUtils
+# BatteryUtils Command Version
 
 Thinkpad battery charge threshold utils
 
@@ -7,9 +7,23 @@ Exposes ACPI interface for battery controls.
 1. Turn off the monitor
 2. start charge threshold
 3. stop charge threshold
+4. Set from command line
 
-* [Download BatteryUtils_N3.5](https://raw.githubusercontent.com/XYUU/BatteryUtils/master/BatteryUtils/bin/Release/BatteryUtils.exe)
-* [Download BatteryUtils_N4](https://raw.githubusercontent.com/XYUU/BatteryUtils/master/BatteryUtils/bin/Release/BatteryUtils_N4.exe)
+This comes courtesy or reddit user /u/vali20
+
+You no longer have to install buggy Lenovo spyware that doesn't even work in the end. It may need the power management driver but that's it.
+
+Run from a  task at windows startup: batteryutils.exe [stop charge] [start charge]
+e.g. battryutils.exe 80 20
+
+On my thinkpad it holds until you pull out the battery.
+
+Thanks to all developers: Anyone else, feel free to contribute. Here's to the hope we won't all have to look through years old posts for basic functionality.
+
+
+
+
+
 
 N4 version, win10 does not install.Net 3.5 framework can be used directly
 
