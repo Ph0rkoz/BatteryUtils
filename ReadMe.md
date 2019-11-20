@@ -1,4 +1,4 @@
-# BatteryUtils Command Version
+# BatteryUtils Command Line Version
 
 Thinkpad battery charge threshold utils
 
@@ -14,9 +14,9 @@ This comes courtesy or reddit user /u/vali20
 You no longer have to install buggy Lenovo spyware that doesn't even work in the end. It may need the power management driver but that's it.
 
 Run from a  task at windows startup: batteryutils.exe [stop charge] [start charge]
-e.g. battryutils.exe 80 20
+e.g. batteryutils.exe 80 20
 
-On my thinkpad it holds until you pull out the battery.
+On my thinkpad it holds until you remove the battery.
 
 Thanks to all developers: Anyone else, feel free to contribute. Here's to the hope we won't all have to look through years old posts for basic functionality.
 
